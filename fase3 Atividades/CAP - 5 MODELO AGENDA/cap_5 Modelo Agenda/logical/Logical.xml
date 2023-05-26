@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8275CF2F-449D-F3B2-40B8-9DE961BFBDD3" mainViewID="28496DA3-8A99-C858-DEFE-C71D31E558CE">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:09:23 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<documents>
+<Document id="A565A192-FBAF-6453-4446-D9D878D9D20A"/>
+</documents>
+</LogicalDesign>

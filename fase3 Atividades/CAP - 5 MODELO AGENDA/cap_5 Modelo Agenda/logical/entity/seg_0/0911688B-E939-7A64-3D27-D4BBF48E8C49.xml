@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0911688B-E939-7A64-3D27-D4BBF48E8C49" name="T_CONTATO">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:15:33 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contato" id="AEB764E1-3DE7-566D-7DF0-EDAB6A59C42E">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:17:03 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="54181301-D120-AA41-7598-7864D6048E54">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:18:56 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="C0072A24-54E0-D98C-ACC9-2A6C49201ED1">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:17:36 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C886FA3-DB1B-8739-4B9B-F14773B50CDD" name="T_CONTATO PK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:24:46 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEB764E1-3DE7-566D-7DF0-EDAB6A59C42E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign>
+   <object objectType="Document" objectID="A565A192-FBAF-6453-4446-D9D878D9D20A" name="Modelo BD Agenda" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.businessinfo.BIDocument" propertyParentId="87B1B27E-DC30-6C46-008B-7393AC8CA1A9" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cap_5 Modelo Agenda" id="81BD2FF2-18D1-232D-8AFB-13220C1CAD91" version="3.5">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:09:23 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>81BD2FF2-18D1-232D-8AFB-13220C1CAD91</designId>
+</OSDM_Design>

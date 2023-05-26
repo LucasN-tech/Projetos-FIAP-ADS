@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="F72BCA46-FA70-F5CD-DCAC-67F3C2E1B011">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 02:00:56 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<sourcePk>7C886FA3-DB1B-8739-4B9B-F14773B50CDD</sourcePk>
+<targetPk>EE146AB4-D976-AC3A-8EF1-6127966BA6DD</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0911688B-E939-7A64-3D27-D4BBF48E8C49</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>615A9330-B5E7-4571-2F00-168E5217F6BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

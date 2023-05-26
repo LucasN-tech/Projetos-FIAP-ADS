@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIDocument class="oracle.dbtools.crest.model.businessinfo.BIDocument" name="Modelo BD Agenda" directorySegmentName="seg_0" id="A565A192-FBAF-6453-4446-D9D878D9D20A">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:11:43 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+</BIDocument>

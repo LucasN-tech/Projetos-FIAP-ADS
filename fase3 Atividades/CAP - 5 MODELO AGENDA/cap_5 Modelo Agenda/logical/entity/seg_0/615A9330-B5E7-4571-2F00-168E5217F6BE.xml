@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="615A9330-B5E7-4571-2F00-168E5217F6BE" name="T_ENDEREÇO">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:29:29 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereço" id="935A849E-9A4F-839E-58A8-3D2AABB8BEB4">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:39:41 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contato" id="F5F9EA9B-5B0C-73AD-61CB-C75209D4E906">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:29:29 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="C312BF36-6372-793C-17F1-6B08E0469D6C">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:29:29 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="888FE123-ED38-8242-22C0-58E782A211B7">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:40:55 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="2CFFF1B6-3076-23CC-C563-86DCCA27F051">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:41:08 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="21539EA3-E3EF-B756-8FD3-97BB39D019CF">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:41:31 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contato1" id="94330F8F-A38A-FBC3-6490-C77B4CEE62E0">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 02:00:56 UTC</createdTime>
+<generatorID>F72BCA46-FA70-F5CD-DCAC-67F3C2E1B011</generatorID>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<referedAttribute>AEB764E1-3DE7-566D-7DF0-EDAB6A59C42E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE146AB4-D976-AC3A-8EF1-6127966BA6DD" name="T_EMAIL PK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:29:29 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>935A849E-9A4F-839E-58A8-3D2AABB8BEB4</attributeRef>
+<attributeRef>94330F8F-A38A-FBC3-6490-C77B4CEE62E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

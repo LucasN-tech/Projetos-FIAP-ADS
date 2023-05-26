@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F47BE726-535D-9A80-3D81-E2ACE5F3806A" name="T_TELEFONE">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:29:36 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefone" id="BC2AFA3F-0408-8169-9B8B-4686928BCA0A">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:30:43 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contato" id="D2C15828-14A5-E34C-D5EC-ABFE2F87FA05">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:31:29 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<reference>true</reference>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro_telefone" id="C1F06115-435A-947B-6001-EA1476E3D7E4">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:30:53 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC709BCE-99AF-6D01-5A69-0ABB70FA0A5B" name="T_TELEFONE PK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-05-22 01:37:55 UTC</createdTime>
+<ownerDesignName>cap_5 Modelo Agenda</ownerDesignName>
+<engineerTo>
+<item key="8771F815-09CB-13DB-E9C9-F3B8610D3112" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC2AFA3F-0408-8169-9B8B-4686928BCA0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
