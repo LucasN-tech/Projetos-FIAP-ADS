@@ -17,5 +17,6 @@ Na Fase 2, avançamos com a documentação do projeto do sistema, abordando o ge
 
 Em seguida, adquirimos conceitos essenciais de UX e criamos as primeiras telas da Fintech no Figma.
 
-- [Prototipo]()
-- [wireframe]()
+- [Prototipo](https://www.figma.com/proto/Jya81bndAYxuPyn9VdFpuJ/SuaCarteira-Design?type=design&node-id=20-3&scaling=scale-down&page-id=20%3A2&starting-point-node-id=102%3A101)
+- [wireframe](Fase2%20Atividades/Figma/SuaCarteira%20Design.pdf)
+
